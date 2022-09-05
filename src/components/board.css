@@ -19,6 +19,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
+
   background-color: rgb(124, 124, 124);
 }
 
@@ -41,7 +42,7 @@ ul > li .flex {
   justify-content: center;
   align-items: center;
   gap: 2em;
-  margin-top: 1em;
+  margin: 1em;
   text-align: center;
   background-color: var(--color-light);
   padding: 0.8em 0;
