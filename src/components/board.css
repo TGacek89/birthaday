@@ -1,24 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&family=Sansita+Swashed:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&family=Sansita+Swashed:wght@300&display=swap");
 
-*>*{
-    box-sizing: border-box;
-    font-family: 'Sansita Swashed';
-    margin: 0;
-
+* > * {
+  box-sizing: border-box;
+  font-family: "Sansita Swashed";
+  margin: 0;
 }
 
-body{
-    --color-dark : #343a40;
-    --color-light: #f5f3f4;
-    --panelColor: #ffe66d;
-    --active : #06d6a0;
+body {
+  --color-dark: linear;
+  --color-light: #f5f3f4;
+  --panelColor: #ffe66d;
+  --active: #06d6a0;
 }
 
 #site-main {
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items: center;
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: rgb(124, 124, 124);
+}
 
+.text-dark {
+  color: var(--color-dark);
+}
+
+.text-light {
+  color: var(--color-light);
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul > li .flex {
+  color: rgb(21, 21, 21);
+  text-shadow: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  margin-top: 1em;
+  text-align: center;
+  background-color: var(--color-light);
+  padding: 0.8em 0;
+  border-radius: 10px;
+  box-shadow: 1px 10px 20px #00000059;
+}
+
+ul > li img {
+  border-radius: 50%;
+  width: 20%;
+}
+
+.name {
+  background-color: none;
+}
+
+.upcoming {
+  margin-top: 1em;
 }
