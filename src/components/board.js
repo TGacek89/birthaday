@@ -35,7 +35,7 @@ const Info = [
   },
   {
     img: "https://images.unsplash.com/photo-1503185912284-5271ff81b9a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
-    name: "Eric van cipka",
+    name: "Eric van Hoiten",
     birthday: "1997-01-28",
   },
 ];
